@@ -1,7 +1,6 @@
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 
-
 @RoutePage()
 class SettingsScreen extends StatefulWidget {
   const SettingsScreen({super.key});
@@ -13,8 +12,15 @@ class SettingsScreen extends StatefulWidget {
 class _SettingsScreenState extends State<SettingsScreen> {
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
-      
+    return Scaffold(
+      appBar: AppBar(),
+      backgroundColor: Colors.amber,
+      //   floatingActionButton: FloatingActionButton(
+      // child: const Icon(Icons.navigation),
+      // onPressed: () {
+      //   AutoRouter.of(context).push(const HomeRoute());
+      // },
+    // )
     );
   }
 }
