@@ -30,7 +30,7 @@ class MainScreen extends StatelessWidget {
                         ),
                         Icon(
                           CupertinoIcons.person_fill,
-                          color: Colors.amber.shade600,
+                          color: Colors.amber.shade200,
                         )
                       ],
                     ),
